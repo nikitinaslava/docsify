@@ -1,5 +1,4 @@
 ## docsify
-какойто текст
 
 > A magical documentation site generator.
 
