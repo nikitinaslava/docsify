@@ -11,9 +11,6 @@
   <meta name="description" content="A magical documentation generator.">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" title="vue">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/dark.css" title="dark" disabled>
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css" title="buble" disabled>
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/pure.css" title="pure" disabled>
   <script src="//unpkg.com/docsify-plugin-codefund/index.js"></script>
   <style>
     nav.app-nav li ul {
@@ -64,7 +61,7 @@
           hook.beforeEach(function (html) {
             if (/githubusercontent\.com/.test(vm.route.file)) {
               url = vm.route.file
-                .replace('raw.githubusercontent.com', 'github.com')
+                .replace('https://github.com/nikitinaslava/docsify', 'github.com')
                 .replace(/\/master/, '/blob/master')
             } else {
               url = 'https://github.com/nikitinaslava/docsify.git' + vm.route.file
