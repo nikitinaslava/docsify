@@ -61,10 +61,10 @@
           hook.beforeEach(function (html) {
             if (/githubusercontent\.com/.test(vm.route.file)) {
               url = vm.route.file
-                .replace('https://github.com/nikitinaslava/docsify', 'github.com')
+                .replace('raw.githubusercontent.com', 'github.com')
                 .replace(/\/master/, '/blob/master')
             } else {
-              url = 'https://github.com/nikitinaslava/docsify.git' + vm.route.file
+              url = 'https://github.com/nikitinaslava/docsify/blob/master/' + vm.route.file
             }
             var editHtml = '[:memo: Edit Document](' + url + ')\n'
 
