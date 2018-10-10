@@ -1,12 +1,6 @@
 ![logo](_media/icon.svg)
 
-# docsify <small>4.7.1</small>
-
-> A magical documentation site generator.
-
-* Simple and lightweight (~19kB gzipped)
-* No statically built html files
-* Multiple themes
+# Markdown
 
 [GitHub](https://github.com/nikitinaslava/docsify)
-[Getting Started](#docsify)
+
